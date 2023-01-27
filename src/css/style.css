@@ -159,3 +159,7 @@ button a:hover {
     border-radius: 50%;
     border: 1.4px solid var(--blue);
 }
+
+.skills {
+    background-color: var(--gray);
+}
