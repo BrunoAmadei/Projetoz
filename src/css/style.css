@@ -10,6 +10,7 @@
     --gray: rgba(19, 19, 19, 0.925);
     --black: #000000;
     --blue: rgba(52, 147, 216, 1);
+    --over: rgb(52, 127, 180);
     --white: rgba(255, 255, 255, 0.73);
 }
 
@@ -22,6 +23,8 @@ body {
 a {
     text-decoration: none;
 }
+
+
 
 span{
     color: var(--blue);
@@ -52,8 +55,17 @@ nav {
     color: var(--white);
 }
 
+.nav-list li a:hover{
+    color: var(--over);
+    cursor: pointer;
+    transition: ease-in 0.3s;
+}
+
 .logo{
     color: var(--white);
     font-weight: 100;
 }
-
+/* MOBILE MENU */
+.mobile-menu {
+    display: block;
+}
