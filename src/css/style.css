@@ -17,13 +17,14 @@
 body {
     font-family: 'Roboto';
     background-color: var(--black);
+    color: var(--white);
 }
 
 a {
     text-decoration: none;
 }
 
-span {
+.blue {
     color: var(--blue);
 }
 
@@ -38,7 +39,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 9vh;
+    height: 10vh;
 }
 
 .nav-list {
@@ -63,4 +64,55 @@ nav {
 .logo {
     color: var(--white);
     font-weight: 100;
+}
+
+/* MAIN */
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+.about {
+    padding: 2rem;
+    margin: 2em;
+}
+
+.about h1 {
+    font-size: 1.65em;
+    font-weight: 400;
+    letter-spacing: 1.55px;
+    margin-bottom: 0.65em;
+}
+
+/* THINGS */
+.things {
+    border: 1px solid blue;
+    text-align: left;
+    padding: 2rem;
+    margin: 2em;
+    justify-content: space-around;
+    display: flex;
+}
+
+.text {
+    border: 1px solid white;
+    width: 60%;
+}
+
+.image {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    padding: 2px;
+    background-color: var(--white);
+    box-shadow: 0 0 20px var(--blue);
+
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1.4px solid var(--deep-platinum);
 }
