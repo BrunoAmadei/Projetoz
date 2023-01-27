@@ -19,20 +19,19 @@ body {
     background-color: var(--black);
 }
 
-
 a {
     text-decoration: none;
 }
 
-
-
-span{
+span {
     color: var(--blue);
 }
 
+/* Header */
 header {
     background-color: var(--gray);
     height: 100%;
+    width: 100%;
 }
 
 nav {
@@ -51,21 +50,17 @@ nav {
     margin-left: 4em;
 }
 
-.nav-list li a{
+.nav-list li a {
     color: var(--white);
 }
 
-.nav-list li a:hover{
+.nav-list li a:hover {
     color: var(--over);
     cursor: pointer;
     transition: ease-in 0.3s;
 }
 
-.logo{
+.logo {
     color: var(--white);
     font-weight: 100;
-}
-/* MOBILE MENU */
-.mobile-menu {
-    display: block;
 }
