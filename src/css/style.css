@@ -86,7 +86,6 @@ nav {
 
 /* THINGS */
 .things {
-    border: 1px solid blue;
     text-align: left;
     padding: 2rem;
     margin: 2em;
@@ -95,8 +94,51 @@ nav {
 }
 
 .text {
-    border: 1px solid white;
-    width: 60%;
+    width: 70%;
+}
+
+.text h2 {
+    font-size: 1.65em;
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin-bottom: 0.65em;
+}
+
+.text p {
+    padding: 0.4em;
+    line-height: 1.24em;
+}
+
+.buttons {
+    width: 280px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1.5em;
+}
+
+.buttons button {
+    padding: 1.25em;
+    background-color: transparent;
+    border: 2.5px solid var(--blue);
+    border-radius: 30px;
+}
+
+.buttons button a {
+    color: var(--white);
+    font-size: 1.15em;
+}
+
+.buttons button,
+button a:hover {
+    cursor: pointer;
+    color: var(--over);
+    transition: ease-in-out 0.3s;
+}
+
+
+.profile {
+    padding: 2em;
+
 }
 
 .image {
@@ -114,5 +156,5 @@ nav {
     width: 100%;
     object-fit: cover;
     border-radius: 50%;
-    border: 1.4px solid var(--deep-platinum);
+    border: 1.4px solid var(--blue);
 }
