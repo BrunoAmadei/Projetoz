@@ -172,5 +172,7 @@ button a:hover {
 }
 
 .skills h2{
-
+    text-shadow: 0 0 20px var(--blue);
+    padding-top : 1.25em;
+    display: inline-block;
 }
