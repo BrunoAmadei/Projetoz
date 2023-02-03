@@ -22,6 +22,7 @@ body {
     background-color: var(--black);
     color: var(--white);
     font-size: 1.12em;
+    overflow-x: hidden;
 }
 
 a {
@@ -155,7 +156,6 @@ button a:hover {
     padding: 2px;
     background-color: var(--white);
     box-shadow: 0 0 20px var(--blue);
-
 }
 
 .image img {
@@ -177,3 +177,29 @@ button a:hover {
     display: inline-block;
 }
 
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px;
+    gap: 15px;
+}
+
+.box-circle{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.number{
+    position: absolute;
+    text-shadow: 0 0 20px var(--blue); 
+    top: 40%;
+}
+
+circle{
+    stroke: var(--blue);
+    stroke-width: 3;
+    
+}
