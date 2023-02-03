@@ -171,8 +171,9 @@ button a:hover {
     background-color: var(--gray);
 }
 
-.skills h2{
+.skills .subtitle{
     text-shadow: 0 0 20px var(--blue);
     padding-top : 1.25em;
     display: inline-block;
 }
+
