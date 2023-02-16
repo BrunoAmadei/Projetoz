@@ -198,7 +198,9 @@ button a:hover {
     left: 37%;
 
 }
-
+.skills h2{
+    color: aquamarine;
+}
 circle {
     stroke: var(--blue);
     stroke-width: 3;
