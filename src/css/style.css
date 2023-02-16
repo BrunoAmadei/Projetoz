@@ -195,12 +195,22 @@ button a:hover {
     position: absolute;
     text-shadow: 0 0 20px var(--blue);
     top: 38%;
-    left: 37%;
+    left: 40%;
 
 }
-.s_sub{
-    color: aquamarine;
+
+.s_sub {
+    font-weight: lighter;
+    letter-spacing: 3px;
 }
+
+.line {
+    width: 124px;
+    border: 0.5px solid var(--blue);
+    margin: 1.2em auto;
+
+}
+
 circle {
     stroke: var(--blue);
     stroke-width: 3;
