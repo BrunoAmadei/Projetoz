@@ -207,7 +207,7 @@ button a:hover {
 .line {
     width: 124px;
     border: 0.5px solid var(--blue);
-    margin: 1.2em auto;
+    margin: 1em auto;
 
 }
 
