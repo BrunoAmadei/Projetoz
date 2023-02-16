@@ -205,14 +205,23 @@ circle{
 }
 
 /* Gallery */
-
+.gallery{
+    width: 100%;
+}
+.box_art{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
 .art {
+    width: 380px;
     height: 235px;
-    width: 400px;
     padding: 2px;
+    margin: 2em auto;
     border-radius: 15px;
     background-color: var(--blue);
-    box-shadow: 0 0 20px var(--gray);
+    box-shadow: 0 0 20px var(--over);
 }
 
 .art img {
