@@ -171,9 +171,9 @@ button a:hover {
     background-color: var(--gray);
 }
 
-.skills .subtitle{
+.subtitle{
     text-shadow: 0 0 20px var(--blue);
-    padding-top : 1.25em;
+    margin-top: 1.25em;
     display: inline-block;
 }
 
@@ -202,4 +202,22 @@ circle{
     stroke: var(--blue);
     stroke-width: 3;
     
+}
+
+/* Gallery */
+
+.art {
+    height: 235px;
+    width: 400px;
+    padding: 2px;
+    border-radius: 15px;
+    background-color: var(--blue);
+    box-shadow: 0 0 20px var(--gray);
+}
+
+.art img {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
 }
