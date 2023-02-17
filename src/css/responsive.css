@@ -1,28 +1,43 @@
-@media(max-width: 640px){
-    .things{
+@media(max-width: 650px) {
+    header {
+        font-size: 0.87em;
+    }
+
+    .nav-list li {
+        margin-left: 2em;
+    }
+
+
+    .things h2 {
+        text-align: center;
+
+    }
+
+    .things_box {
         flex-direction: column;
     }
 
-    .things .text{
+    .things_box .text {
         text-align: center;
         width: 100%;
     }
 
-    .things .blue{
-        order: -1;
-    }
-
-    .things .buttons{
-        width: 90%;
-    }
-
-    .things .profile{
+    .profile {
         order: -1;
         margin: 5px auto;
     }
 
+   .things_box .buttons {
+        width: 90%;
+        gap: 12px;
+    }
+
+    .buttons button{
+        width: 200px;
+        
+    }
     /* skills */
-    .number{
+    .number {
         left: 43%;
     }
 }

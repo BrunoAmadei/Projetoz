@@ -97,9 +97,23 @@ nav {
 .things {
     padding: 2em;
     margin: 2em auto;
+  
+    max-width: 1280px;
+}
+h2 {
+    font-size: 1.65em;
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin-bottom: 0.65em;
+}
+
+.things h2{
+    text-align: left;
+}
+
+.things_box{
     display: flex;
     justify-content: space-around;
-    max-width: 1280px;
 }
 
 .text {
@@ -107,12 +121,6 @@ nav {
     text-align: left;
 }
 
-h2 {
-    font-size: 1.65em;
-    font-weight: 200;
-    letter-spacing: 2px;
-    margin-bottom: 0.65em;
-}
 
 .text p {
     padding: 0.4em;
