@@ -1,0 +1,21 @@
+@media(max-width: 640px){
+    .things{
+        flex-direction: column;
+    }
+
+    .things .text{
+        text-align: center;
+        width: 100%;
+    }
+    .things .blue{
+        order: -1;
+    }
+    .things .buttons{
+        width: 90%;
+    }
+
+    .things .profile{
+        order: -1;
+        margin: 5px auto;
+    }
+}
