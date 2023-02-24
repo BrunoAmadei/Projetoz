@@ -1,3 +1,9 @@
+@media(max-width:768px) {
+    .gallery .popup-img img{
+        width: 95%;
+    }
+}
+
 @media(max-width: 650px) {
     header {
         font-size: 0.87em;
@@ -27,15 +33,16 @@
         margin: 5px auto;
     }
 
-   .things_box .buttons {
+    .things_box .buttons {
         width: 90%;
         gap: 12px;
     }
 
-    .buttons button{
+    .buttons button {
         width: 200px;
-        
+
     }
+
     /* skills */
     .number {
         left: 43%;
