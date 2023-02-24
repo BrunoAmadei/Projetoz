@@ -97,9 +97,10 @@ nav {
 .things {
     padding: 2em;
     margin: 2em auto;
-  
+
     max-width: 1280px;
 }
+
 h2 {
     font-size: 1.65em;
     font-weight: 200;
@@ -107,11 +108,11 @@ h2 {
     margin-bottom: 0.65em;
 }
 
-.things h2{
+.things h2 {
     text-align: left;
 }
 
-.things_box{
+.things_box {
     display: flex;
     justify-content: space-around;
 }
@@ -158,7 +159,7 @@ button a:hover {
 .profile {
     padding: 2em;
     margin: auto;
- }
+}
 
 .image {
     height: 250px;
@@ -247,11 +248,50 @@ circle {
     border-radius: 15px;
     background-color: var(--blue);
     box-shadow: 0 0 15px var(--over);
+    cursor: pointer;
 }
 
 .art img {
     height: 100%;
     width: 100%;
     border-radius: 15px;
+    object-fit: cover;
+    transition: 0.2s linear;
+}
+
+.art img:hover {
+    transform: scale(1.1);
+}
+
+.gallery .popup-img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+}
+
+.gallery .popup-img span{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: var(--white);
+    cursor: pointer;
+    z-index: 100;
+}
+
+.gallery .popup-img img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid var(--blue);
+    border-radius: 5px;
+    box-shadow: 0 0 15px var(--over);
+    max-width: 750px;
     object-fit: cover;
 }
