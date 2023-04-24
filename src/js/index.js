@@ -7,6 +7,5 @@ document.querySelectorAll('.art img').forEach(image => {
 
 document.querySelector('.popup-img span').onclick = () => {
     document.querySelector('.popup-img').style.display = 'none'
-
 }
 

@@ -256,7 +256,7 @@ circle {
     width: 100%;
     border-radius: 15px;
     object-fit: cover;
-    transition: 0.2s linear;
+    transition: 0.3s ease-in-out;
 }
 
 .art img:hover {
@@ -274,7 +274,7 @@ circle {
     display: none;
 }
 
-.gallery .popup-img span{
+.gallery .popup-img span {
     position: absolute;
     top: 0;
     right: 10px;
@@ -285,7 +285,7 @@ circle {
     z-index: 100;
 }
 
-.gallery .popup-img img{
+.gallery .popup-img img {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -296,4 +296,20 @@ circle {
     max-width: 750px;
     max-height: 95%;
     object-fit: cover;
+}
+
+/* footer */
+footer {
+    border: 1px solid green;
+    padding: 1.5rem;
+}
+
+footer a {
+    font-size: 2.8rem;
+    color: var(--over);
+    transition: ease-in 0.3s;
+}
+
+footer a:hover{
+    color: var(--blue);
 }
